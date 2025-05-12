@@ -1,0 +1,12 @@
+{
+  "name": "web1static",
+  "version": "1.0.0",
+  "description": "Static Architecture Website",
+  "scripts": {
+    "start": "serve -s .",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
