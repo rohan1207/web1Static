@@ -4,7 +4,7 @@
   "description": "Static Architecture Website",
   "scripts": {
     "start": "serve dist",
-    "build": "mkdir -p dist && cp -r *.html *.png *.css *.js dist/"
+    "build": "mkdir -p dist && cp -r *.html *.png *.js dist/"
   },
   "dependencies": {
     "serve": "^14.2.1"
