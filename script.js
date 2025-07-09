@@ -171,8 +171,8 @@ const Hero = () => {
                 React.createElement('span', { className: 'text-white/50' }, 'or'),
                 React.createElement('button', { className: 'bg-white/10 border border-white/20 backdrop-blur-md px-8 py-3 rounded-full font-semibold hover:bg-white/20 transition' }, 'View portfolio')
             )
-        ),
-       
+    ));
+};
 
 // Projects Component
 const Projects = () => {
@@ -359,4 +359,7 @@ const App = () => {
 };
 
 // Render the App
-ReactDOM
+ReactDOM.render(
+    React.createElement(App),
+    document.getElementById('app')
+);
