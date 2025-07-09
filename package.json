@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Static Architecture Website",
   "scripts": {
-    "start": "serve .",
-    "build": "mkdir -p dist && cp -r *.html *.png dist/"
+    "start": "serve dist",
+    "build": "mkdir -p dist && cp -r *.html *.png *.css *.js dist/"
   },
   "dependencies": {
     "serve": "^14.2.1"
