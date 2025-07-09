@@ -191,7 +191,7 @@ const Projects = () => {
             id: 2,
             title: 'Sai Sneh Hospital',
             description: 'A modern hospital website with state-of-the-art facilities and responsive UI.',
-            image: './saisnehhospital.png',
+            image: './saisneh.png',
             link: 'https://saisneh-hospital-frontend.onrender.com/'
         },
         {
@@ -212,7 +212,7 @@ const Projects = () => {
             id: 5,
             title: 'Ankur Associates',
             description: 'A 3d clean and responsive  website for a professional Architecture firm.',
-            image: './ankurassociates.png',
+            image: './ankur.png',
             link: 'https://akassociates.onrender.com/'
         }
     ];
